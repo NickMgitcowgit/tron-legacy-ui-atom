@@ -7,4 +7,4 @@ the _Themes_ section in the Settings view (`cmd-,`) and selecting it from the
 _UI Themes_ drop-down menu.
 
 Screenshot includes both my syntax and ui theme files
-![](https://github.com/lok05philosophy/tron-legacy-syntax-atom/blob/master/screen-shot.png)
+![](https://raw.githubusercontent.com/lok05philosophy/tron-legacy-ui-atom/master/screen-shot.png)
