@@ -45,3 +45,10 @@
 .clear_glow {
     text-shadow: none;
 }
+.ease(@property){
+    -webkit-transition: @property 0.25s ease-in;
+    -ms-transition: @property 0.25s ease-in;
+    -o-transition: @property 0.25s ease-in;
+    -moz-transition: @property 0.25s ease-in;
+    transition: @property 0.25s ease-in;
+}

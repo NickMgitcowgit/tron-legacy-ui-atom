@@ -1,10 +1,8 @@
-# Atom Dark UI theme
+# Tron Legacy
 
-A dark UI theme for Atom.
+UI theme based on Tron Legacy
 
-This theme is installed by default with Atom and can be activated by going to
-the _Themes_ section in the Settings view (`cmd-,`) and selecting it from the
-_UI Themes_ drop-down menu.
+More notes/updates to come! Thanks for checking it out!
 
 Screenshot includes both my syntax and ui theme files
 ![](https://raw.githubusercontent.com/lok05philosophy/tron-legacy-ui-atom/master/screen-shot.png)

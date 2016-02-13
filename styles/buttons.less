@@ -31,23 +31,35 @@
 }
 
 .btn {
-  .btn-background(@button-background-color, @button-background-color-hover, @button-background-color-selected, @text-color);
+    // .btn-background(@button-background-color, @button-background-color-hover, @button-background-color-selected, @text-color);
+    background-color: @black;
+    box-shadow: inset 0 0 5px 0 @orange;
+    .ease(all);
+    &:hover {
+        box-shadow: inset 0 0 35px 0 @orange;
+        background-color: @black;
+    }
 }
 
 .btn.btn-primary {
-  .btn-variant(@background-color-info);
+  .btn-variant(@blue);
+  box-shadow: none;
 }
 .btn.btn-info {
-  .btn-variant(@background-color-info);
+  .btn-variant(@blue);
+  box-shadow: none;
 }
 .btn.btn-success {
   .btn-variant(@background-color-success);
+  box-shadow: none;
 }
 .btn.btn-warning {
   .btn-variant(@background-color-warning);
+  box-shadow: none;
 }
 .btn.btn-error {
   .btn-variant(@background-color-error);
+  box-shadow: none;
 }
 
 .caret {
