@@ -26,12 +26,7 @@ atom-text-editor[mini].is-focused, atom-text-editor[mini].is-focused::shadow {
 
 // FIXME: these should go in syntax themes?
 atom-text-editor, atom-text-editor::shadow {
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#132031+0,0c141f+100 */
-    background: rgb(19,32,49); /* Old browsers */
-    background: -moz-radial-gradient(center, ellipse cover,  rgba(19,32,49,1) 0%, rgba(12,20,31,1) 100%); /* FF3.6-15 */
-    background: -webkit-radial-gradient(center, ellipse cover,  rgba(19,32,49,1) 0%,rgba(12,20,31,1) 100%); /* Chrome10-25,Safari5.1-6 */
-    background: radial-gradient(ellipse at center,  rgba(19,32,49,1) 0%,rgba(12,20,31,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#132031', endColorstr='#0c141f',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    &:extend(.rad_grad);
     color: fade(@pane, 55%);
 
     .gutter {
@@ -67,5 +62,13 @@ atom-text-editor, atom-text-editor::shadow {
 
     .gutter.drop-shadow {
         // -webkit-box-shadow: -2px 0 10px 2px #222;
+    }
+    .lines {
+        &:extend(.rad_grad);
+        padding-left: 5px;
+        padding-right: 5px;
+        .line {
+            background-color: transparent;
+        }
     }
 }

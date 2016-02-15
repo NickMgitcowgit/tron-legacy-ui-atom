@@ -10,11 +10,7 @@
 }
 
 .panels-item {
-    background: rgb(19,32,49); /* Old browsers */
-    background: -moz-radial-gradient(center, ellipse cover,  rgba(19,32,49,1) 0%, rgba(12,20,31,1) 100%); /* FF3.6-15 */
-    background: -webkit-radial-gradient(center, ellipse cover,  rgba(19,32,49,1) 0%,rgba(12,20,31,1) 100%); /* Chrome10-25,Safari5.1-6 */
-    background: radial-gradient(ellipse at center,  rgba(19,32,49,1) 0%,rgba(12,20,31,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#132031', endColorstr='#0c141f',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    &:extend(.rad_grad);
 }
 
 atom-panel, .tool-panel {
@@ -79,11 +75,7 @@ atom-panel, .tool-panel {
 
 .settings-view {
     select.form-control {
-        background: rgb(19,32,49); /* Old browsers */
-        background: -moz-radial-gradient(center, ellipse cover,  rgba(19,32,49,1) 0%, rgba(12,20,31,1) 100%); /* FF3.6-15 */
-        background: -webkit-radial-gradient(center, ellipse cover,  rgba(19,32,49,1) 0%,rgba(12,20,31,1) 100%); /* Chrome10-25,Safari5.1-6 */
-        background: radial-gradient(ellipse at center,  rgba(19,32,49,1) 0%,rgba(12,20,31,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#132031', endColorstr='#0c141f',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+        &:extend(.rad_grad);
         border: 1px solid fade(@blue, 15%);
         box-shadow: 0 0 3px 0 @pane;
         &:hover {
