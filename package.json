@@ -11,7 +11,7 @@
     "glow"
   ],
   "license": "MIT",
-  "repository": "https://github.com/lok05philosophy/tron-legacy-ui-atom.git",
+  "repository": "https://github.com/cparadeise/tron-legacy-ui-atom.git",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   }

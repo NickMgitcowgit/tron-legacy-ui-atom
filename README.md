@@ -4,5 +4,7 @@ UI theme based on Tron Legacy. Don't really know how this behaves without my Tro
 
 More notes/updates to come! Thanks for checking it out!
 
+Forked version >=6.1 includes Atom >=1.13 syntax updates as well as selected text highlighting fix.
+
 Screenshot includes both my syntax and ui theme files
-![](https://raw.githubusercontent.com/lok05philosophy/tron-legacy-ui-atom/master/screen-shot.png)
+![](https://raw.githubusercontent.com/cparadeise/tron-legacy-ui-atom/master/screen-shot.png)
