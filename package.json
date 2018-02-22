@@ -1,7 +1,7 @@
 {
   "name": "tron-legacy-ui",
   "theme": "ui",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "description": "A dark UI theme to play along with tron-legacy-syntax",
   "keywords": [
     "ui",
@@ -13,6 +13,6 @@
   "license": "MIT",
   "repository": "https://github.com/lok05philosophy/tron-legacy-ui-atom.git",
   "engines": {
-    "atom": ">0.40.0"
+    "atom": ">=1.0.0 <2.0.0"
   }
 }
