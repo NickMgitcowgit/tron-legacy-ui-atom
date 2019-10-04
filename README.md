@@ -6,5 +6,7 @@ More notes/updates to come! Thanks for checking it out!
 
 Forked version >=6.1 includes Atom >=1.13 syntax updates as well as selected text highlighting fix.
 
+Nick was here 
+
 Screenshot includes both my syntax and ui theme files
 ![](https://raw.githubusercontent.com/cparadeise/tron-legacy-ui-atom/master/screen-shot.png)
